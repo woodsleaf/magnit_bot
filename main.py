@@ -4,8 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
+id_city = '1645' #'2398' Moscow, '1645' Saint Peterburg
 
-def collect_data(city_code='2398'):
+def collect_data(city_code=id_city):
     cur_time = datetime.datetime.now().strftime('%d_%m_%Y_%H_%M')
     ua = UserAgent()
     
@@ -77,7 +78,7 @@ def collect_data(city_code='2398'):
         
     
 def main():
-    collect_data(city_code='2398')
+    collect_data(city_code=id_city)
     
     
 if __name__ == '__main__':
