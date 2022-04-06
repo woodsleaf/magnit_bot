@@ -1,6 +1,8 @@
-# Скрипт магазина Magnit, формирует по выбранному городу csv файл с информацией о товарах со скидкой на текущий день.
+# Скрипт магазина Magnit
 
-## Prepare
+Формирует по выбранному городу csv файл с информацией о товарах со скидкой на текущий день.
+
+### Prepare
 
 <pre>
 python3 -m venv venv
@@ -8,11 +10,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 </pre>
 
-# Use
+### Use
 
 python3 main.py
 
-# Example ready csv file
+### Example ready csv file
 
 <pre>
 Санкт-Петербург_06_04_2022_02_57.csv
